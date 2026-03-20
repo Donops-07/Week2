@@ -1,0 +1,27 @@
+{
+  "name": "week2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Donops-07/Week2#readme",
+  "bugs": {
+    "url": "https://github.com/Donops-07/Week2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Donops-07/Week2.git"
+  },
+  "license": "ISC",
+  "author": "DonOps",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
